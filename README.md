@@ -9,5 +9,5 @@ docker build -t gentoo-prefix-env .
 ## Run
 
 ```shell
-docker run -it gentoo-prefix-env
+docker run -it --name gentoo-prefix gentoo-prefix-env
 ```
